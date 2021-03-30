@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch via NPM",
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "windows": {
+                "runtimeExecutable": "npm"
+            },
+            "runtimeArgs": [
+                "start"
+            ],
+            "cwd": "${workspaceFolder}",
+            "sourceMaps": true,
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
+        }
+    ]
+}

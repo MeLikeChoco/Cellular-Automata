@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Vcr Osd Mono";
+  src: url("../assets/vcrosdmono.ttf") format("truetype");
+}
+
+* {
+  font-family: "Vcr Osd Mono";
+}
+
+label, span {
+  color: white
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#openOptions {
+  position: fixed;
+  background-color: white;
+}
+
+#toolbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  background-color: transparent;
+}
+
+#info {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  background-color: transparent;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  /* border: 1px solid #9C8AA6; */
+}

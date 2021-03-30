@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <div id="toolbar">
+
+    <button id="next">Next</button>
+    <button id="clear">Clear</button>
+
+    <select id="automata" name="automata"></select>
+    <label for="automata">Automaton:</label>
+
+    <select id="pixelSizes" name="pixelSizes"></select>
+    <label for="pixelSizes">Pixel Size:</label>
+
+    <input id="shouldTrace" name="shouldTrace" type="checkbox">
+    <label for="shouldTrace">Should Trace:</label>
+
+    <select id="fps" name="fps">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="5">5</option>
+      <option value="8">8</option>
+      <option value="10">10</option>
+      <option value="15">15</option>
+      <option value="20">20</option>
+      <option value="30">30</option>
+      <option value="60">60</option>
+    </select>
+    <label for="fps">FPS</label>
+
+    <div id="controls">
+      <button id="play">▶️</button>
+      <button id="pause">⏸️</button>
+    </div>
+
+    <select id="presets" name="presets"></select>
+    <label for="presets">Presets</label>
+
+    <button id="testing">For testing</button>
+
+    <!-- <select id="themes"></select> -->
+
+  </div>
+
+  <div id="info">
+    <span>Generation: </span>
+    <span id="generation"></span>
+  </div>
+
+  <!--width/height attributes correlate to resolution, width/height css correlate to actual size-->
+  <canvas id="canvas"></canvas>
+
+</body>
+
+<script src="../dist/scripts/window_globals.js"></script>
+
+<div id="openOptions"></div>
+
+<!-- <div id="options">
+
+  <div id="conway" hidden>
+    <label for="shouldWrap">Should Wrap:</label>
+    <input id="shouldWrap" type="checkbox" name="shouldWrap">
+    <script id="script" src="../dist/scripts/automata/conway.js"></script>
+  </div>
+
+  <div id="qstate" hidden>
+  </div>
+
+</div> -->
+
+<script src="../dist/scripts/settings.js"></script>
+<script src="../dist/scripts/canvas.js"></script>
+<script src="../dist/scripts/formatting.js"></script>
+<script src="../dist/scripts/onload.js"></script>
+<!-- <script src="../dist/themes.js"></script>-->
+
+</html>

@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.QState = void 0;
+const baseAutomaton_1 = require("./baseAutomaton");
+class QState extends baseAutomaton_1.BaseAutomaton {
+    get name() {
+        return "Q-State";
+    }
+    toString() {
+        throw new Error("Method not implemented.");
+    }
+}
+exports.QState = QState;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicXN0YXRlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2F1dG9tYXRvbnMvcXN0YXRlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFBLG1EQUFnRDtBQUVoRCxNQUFhLE1BQU8sU0FBUSw2QkFBYTtJQUVyQyxJQUFJLElBQUk7UUFDSixPQUFPLFNBQVMsQ0FBQztJQUNyQixDQUFDO0lBTUQsUUFBUTtRQUNKLE1BQU0sSUFBSSxLQUFLLENBQUMseUJBQXlCLENBQUMsQ0FBQztJQUMvQyxDQUFDO0NBRUo7QUFkRCx3QkFjQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEJhc2VBdXRvbWF0b24gfSBmcm9tIFwiLi9iYXNlQXV0b21hdG9uXCI7XHJcblxyXG5leHBvcnQgY2xhc3MgUVN0YXRlIGV4dGVuZHMgQmFzZUF1dG9tYXRvbiB7XHJcblxyXG4gICAgZ2V0IG5hbWUoKTogQ2VsbHVsYXJBdXRvbWF0YSB7XHJcbiAgICAgICAgcmV0dXJuIFwiUS1TdGF0ZVwiO1xyXG4gICAgfVxyXG5cclxuICAgIGdldEN1cnJlbnRTdGF0ZTogKCkgPT4gU3RhdGU7XHJcbiAgICBnZXROZXh0U3RhdGU6ICgpID0+IFN0YXRlO1xyXG4gICAgZ2V0Q29sb3JNYXA6ICgpID0+IENvbG9yTWFwO1xyXG5cclxuICAgIHRvU3RyaW5nKCk6IHN0cmluZyB7XHJcbiAgICAgICAgdGhyb3cgbmV3IEVycm9yKFwiTWV0aG9kIG5vdCBpbXBsZW1lbnRlZC5cIik7XHJcbiAgICB9XHJcblxyXG59Il19
